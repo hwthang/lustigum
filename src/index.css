@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* width */
+.hide-scrollbar::-webkit-scrollbar {
+  width: 20px;
+}
+
