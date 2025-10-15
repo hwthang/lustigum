@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { IoChevronBack, IoChevronForward } from "react-icons/io5";
 
+
 import comboHu from "../assets/Combo 2 vị hũ thủy tinh.jpg";
 import taoXanh from "../assets/LUSTIGUM táo xanh.jpg";
 import comboThiec from "../assets/COMBO 2 vị hộp thiết.jpg";
@@ -106,11 +107,11 @@ export default function Carousel() {
               alt={p.name}
               className="w-30 h-30 object-cover mb-2 shadow-lg rounded-md"
             />
-            <p className="font-semibold text-md text-center text-red-600">
+            <p className="font-semibold text-md text-center text-red-500">
               {p.name}
             </p>
             <p className="text-gray-700 text-sm">{p.price}</p>
-            <button className="bg-green-200 text-green-800 px-3 py-1 mt-2 rounded-full hover:bg-green-300">
+            <button className="bg-lime-400 text-green-800 px-3 py-1 mt-2 rounded-full hover:bg-lime-300">
               Xem nhanh
             </button>
           </div>

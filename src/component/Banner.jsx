@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+import { FaStar } from "react-icons/fa";
+import { FaS } from "react-icons/fa6";
 const LABEL = [
   "Kẹo dẻo vị đào",
   "Kẹo hình thú",
@@ -16,11 +17,11 @@ const LABEL = [
 function Banner() {
   const [search, setSearch] = useState("");
   return (
-    <div className="bg-yellow-100 px-6 py-4 flex justify-center flex-col items-center gap-4">
+    <div className="bg-yellow-200 px-6 py-4 flex justify-center flex-col items-center gap-4">
       <div className="text-3xl font-bold text-red-500 text-center">
         XIN CHÀO CÁC TÍN ĐỒ NGỌT NGÀO CỦA LUSTIGUM
       </div>
-      <p className="text-center text-md text-red-700">
+      <p className="text-center text-md text-red-500">
         Hãy tìm loại sản phẩm bạn muốn vào thanh bên dưới nhé!
         <br /> Nếu bạn có bất kì sự không hài lòng hay thắc mắc nào vui lòng
         liên hệ với nhân viên ở cơ sở gần nhất. <br />
@@ -34,7 +35,8 @@ function Banner() {
       />
       <div className="flex flex-wrap justify-center w-3/4 gap-4">
         {LABEL.map((item, i)=>(
-          <div key={i} className="bg-red-400 cursor-pointer hover:bg-red-300 text-white inline-flex text-nowrap rounded-full text-left pl-2 pr-4 py-2">⭐ {item}</div>
+          <div key={i} className="justify-center items-center gap-1 bg-red-500 cursor-pointer hover:bg-red-400 text-white inline-flex text-nowrap rounded-full text-left pl-2 pr-4 py-2">
+            <FaStar className="text-yellow-400" size={20}/> {item}</div>
         ))}
       </div>
     </div>
