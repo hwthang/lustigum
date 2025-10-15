@@ -1,69 +1,75 @@
 import React, { useRef } from "react";
 import { IoChevronBack, IoChevronForward } from "react-icons/io5";
 
-const products = [
+import comboHu from "../assets/Combo 2 vị hũ thủy tinh.jpg";
+import taoXanh from "../assets/LUSTIGUM táo xanh.jpg";
+import comboThiec from "../assets/COMBO 2 vị hộp thiết.jpg";
+import camMong from "../assets/LUSTIGUM cam mọng.jpg";
+import dauTay from "../assets/LUSTIGUM Dâu tây.jpg";
+
+export const products = [
   {
     id: 1,
     name: "COMBO 2 vị hũ thủy tinh",
     price: "80.000 VNĐ",
-    img: "src/assets/Combo 2 vị hũ thủy tinh.jpg",
+    img: comboHu,
   },
   {
     id: 2,
     name: "LUSTIGUM táo xanh",
     price: "45.000 VNĐ",
-    img: "src/assets/LUSTIGUM táo xanh.jpg",
+    img: taoXanh,
   },
   {
     id: 3,
     name: "COMBO 2 vị hộp thiếc",
     price: "75.000 VNĐ",
-    img: "src/assets/COMBO 2 vị hộp thiết.jpg",
+    img: comboThiec,
   },
   {
     id: 4,
     name: "LUSTIGUM cam mọng",
     price: "45.000 VNĐ",
-    img: "src/assets/LUSTIGUM cam mọng.jpg",
+    img: camMong,
   },
   {
     id: 5,
     name: "LUSTIGUM dâu tây",
     price: "45.000 VNĐ",
-    img: "src/assets/LUSTIGUM Dâu tây.jpg",
+    img: dauTay,
   },
-
   {
     id: 6,
     name: "COMBO 2 vị hũ thủy tinh",
     price: "80.000 VNĐ",
-    img: "src/assets/Combo 2 vị hũ thủy tinh.jpg",
+    img: comboHu,
   },
   {
     id: 7,
     name: "LUSTIGUM táo xanh",
     price: "45.000 VNĐ",
-    img: "src/assets/LUSTIGUM táo xanh.jpg",
+    img: taoXanh,
   },
   {
     id: 8,
     name: "COMBO 2 vị hộp thiếc",
     price: "75.000 VNĐ",
-    img: "src/assets/COMBO 2 vị hộp thiết.jpg",
+    img: comboThiec,
   },
   {
     id: 9,
     name: "LUSTIGUM cam mọng",
     price: "45.000 VNĐ",
-    img: "src/assets/LUSTIGUM cam mọng.jpg",
+    img: camMong,
   },
   {
     id: 10,
     name: "LUSTIGUM dâu tây",
     price: "45.000 VNĐ",
-    img: "src/assets/LUSTIGUM Dâu tây.jpg",
+    img: dauTay,
   },
 ];
+
 
 export default function Carousel() {
   const scrollRef = useRef(null);
