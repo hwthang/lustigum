@@ -13,7 +13,7 @@ function Header() {
         ))}
         <div className="hover:bg-red-100 cursor-pointer md:hover:bg-white md:w-fit py-1 w-full flex items-center justify-center"><div className="px-6 relative w-fit">
           <FaShoppingCart size={36} className="active:text-red-500 cursor-pointer w-fit "/>
-          <div className="absolute bg-yellow-200 top-0 right-4 text-sm w-6 h-6 rounded-full flex items-center justify-center">
+          <div className="absolute bg-yellow-100 top-0 right-4 text-sm w-6 h-6 rounded-full flex items-center justify-center">
             14
           </div>
         </div></div>
