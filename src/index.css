@@ -2,17 +2,17 @@
 @import "tailwindcss";
 @font-face {
   font-family: "Lustigum";
-  src: url("Pokemon Solid.ttf");
+  src: url("/public/Pokemon-Solid.ttf");
 }
 
 @font-face {
   font-family: "Normal";
-  src: url("MatahariCondensed-400CondReg.otf");
+  src: url("/public/MatahariCondensed-400CondReg.otf");
 }
 
 @font-face {
   font-family: "Bold";
-  src: url("MatahariCondensed-700CondBold.otf");
+  src: url("/public/MatahariCondensed-700CondBold.otf");
 }
 
 
