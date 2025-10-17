@@ -118,7 +118,7 @@ import Main from './component/Main'
 
 function App() {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col font-normal'>
       <Header/>
       <Banner/>
       <Main/>

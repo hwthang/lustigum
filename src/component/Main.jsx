@@ -9,7 +9,7 @@ function Main() {
           <div className='border border-red-500 w-full'></div>
           <div className='border border-red-500 w-8/10'></div>
         </div>
-        <p className='text-3xl font-bold text-red-500 px-8'>SẢN PHẨM MỚI NHẤT</p>
+        <p className='text-3xl font-bold text-red-500 px-8 font-normal-bold pt-2'>SẢN PHẨM MỚI NHẤT</p>
         <div className='flex flex-col flex-1 h-full gap-2 items-end'>
           <div className='border border-red-500 w-full'></div>
           <div className='border border-red-500 w-8/10'></div>

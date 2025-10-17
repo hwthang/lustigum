@@ -17,8 +17,8 @@ const LABEL = [
 function Banner() {
   const [search, setSearch] = useState("");
   return (
-    <div className="bg-yellow-100 px-6 py-4 flex justify-center flex-col items-center gap-4">
-      <div className="text-3xl font-bold text-red-500 text-center">
+    <div className="bg-yellow-100 px-6 py-4 flex justify-center flex-col items-center gap-2">
+      <div className="text-3xl font-bold text-red-500 text-center font-normal-bold">
         XIN CHÀO CÁC TÍN ĐỒ NGỌT NGÀO CỦA LUSTIGUM
       </div>
       <p className="text-center text-md text-red-500">
@@ -36,7 +36,7 @@ function Banner() {
       <div className="flex flex-wrap justify-center w-3/4 gap-4">
         {LABEL.map((item, i)=>(
           <div key={i} className="justify-center items-center gap-1 bg-red-500 cursor-pointer hover:bg-red-400 text-white inline-flex text-nowrap rounded-full text-left pl-2 pr-4 py-2">
-            <FaStar className="text-yellow-400" size={20}/> {item}</div>
+            <FaStar className="text-yellow-400" size={20}/> <p className="pt-1">{item}</p></div>
         ))}
       </div>
     </div>

@@ -1,7 +1,34 @@
+
 @import "tailwindcss";
+@font-face {
+  font-family: "Lustigum";
+  src: url("src/assets/Pokemon Solid.ttf");
+}
+
+@font-face {
+  font-family: "Normal";
+  src: url("src/assets/MatahariCondensed-400CondReg.otf");
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url("src/assets/MatahariCondensed-700CondBold.otf");
+}
+
 
 /* width */
 .hide-scrollbar::-webkit-scrollbar {
   width: 20px;
 }
 
+.logo{
+  font-family:"Lustigum" ;
+}
+
+.font-normal{
+  font-family: "Normal";
+}
+
+.font-normal-bold{
+  font-family: "Bold";
+}
