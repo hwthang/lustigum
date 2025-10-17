@@ -28,7 +28,7 @@ function Banner() {
         Trân trọng!
       </p>
       <input
-        className="outline-none shadow-lg bg-white px-4 py-3 w-3/4 rounded-full"
+        className="outline-none shadow-lg bg-white px-4 pt-4 pb-2 w-3/4 rounded-full"
         placeholder="Tìm kiếm..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
