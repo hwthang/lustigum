@@ -6,7 +6,7 @@ function Header() {
   const links = ["Sản phẩm", "Sự kiện", "Liên hệ", "Câu hỏi thường gặp"];
   return (
     <div className="md:pl-6 py-2 flex justify-between items-end flex-col md:flex-row w-full ">
-      <div className="text-4xl font-bold text-red-500 w-full text-center md:w-fit mb-4 md:mb-0 h-full pb-3 logo " style={{letterSpacing:'8px'}}>LUSTIGUM</div>
+      <div className="text-4xl font-bold text-red-500 w-full text-center md:w-fit mb-4 md:mb-0 h-full pb-3 logo " style={{letterSpacing:'6px'}}>LUSTIGUM</div>
       <div className="md:bg-white bg-orange-100 flex text-red-500 font-semibold text-lg flex-col md:flex-row  w-full text-center md:w-fit">
         {links.map((item, i) => (
           <div className="md:hover:border-red-500 border-b-3 border-white hover:bg-red-100  md:hover:bg-white md:hover:text-red-500 px-6 text-lg text-center cursor-pointer font-normal-bold pt-2 pb-1">{item}</div>
