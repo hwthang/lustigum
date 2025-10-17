@@ -117,7 +117,7 @@ export default function Carousel() {
             <img
               src={p.img}
               alt={p.name}
-              className="w-30 h-30 object-cover mb-2 shadow-lg rounded-md"
+              className="w-24 h-24 object-cover mb-2 shadow-lg rounded-md"
             />
             <div className="pb-1 flex">{Array(p.star).fill(<FaStar className="text-red-400" size={20}/>).map(i => i)}</div>
             <p className="font-semibold text-md text-center text-red-500 font-normal-bold">

@@ -3,7 +3,7 @@ import Carousel from './Carousel'
 
 function Main() {
   return (
-    <div className='relative flex flex-col gap-8'>
+    <div className='relative flex flex-col gap-4'>
       <div className='flex justify-center items-center mt-2'>
         <div className='flex flex-col flex-1 h-full gap-2'>
           <div className='border border-red-500 w-full'></div>

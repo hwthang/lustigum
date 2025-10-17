@@ -17,7 +17,7 @@ const LABEL = [
 function Banner() {
   const [search, setSearch] = useState("");
   return (
-    <div className="bg-yellow-100 px-6 py-4 flex justify-center flex-col items-center gap-2">
+    <div className="bg-yellow-100 px-6 py-4 flex justify-center flex-col items-center gap-4">
       <div className="text-3xl font-bold text-red-500 text-center font-normal-bold">
         XIN CHÀO CÁC TÍN ĐỒ NGỌT NGÀO CỦA LUSTIGUM
       </div>
